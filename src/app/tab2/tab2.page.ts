@@ -99,7 +99,7 @@ export class Tab2Page implements OnInit {
     const loading = await this.loadingCtrl.create({
       message: 'Loading...',
       duration: 3500,
-      spinner: 'circles',
+      spinner: 'circular'
     });
 
     loading.present();
